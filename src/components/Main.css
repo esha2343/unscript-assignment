@@ -1,0 +1,231 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-family: 'Mona Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0.5rem 0; 
+    gap: 2rem;
+}
+
+.main-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.input-group {
+    display: flex;               
+    align-items: center;        
+    justify-content: center;     
+    gap: 10px;                  
+    width: 100%;                
+}
+
+.input-group input {
+    padding: 0.75rem;           
+    border: 1px solid #ccc;     
+    border-radius: 4px;         
+    font-size: 1rem;            
+    margin-right: 0;            
+    width: 100%;                
+    max-width: 250px;           
+}
+
+.input-group button {
+    background-color: #0357F7;  
+    color: white;               
+    border: none;               
+    padding: 0.75rem 1.5rem;    
+    border-radius: 4px;         
+    cursor: pointer;            
+    font-size: 1rem;            
+}
+
+
+.iframe-container {
+    width: 100%;
+    max-width: 1322px;
+    height: auto;
+    border-radius: 32px 0 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-header p {
+        font-size: 0.9rem;
+    }
+
+    .input-group input {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+
+    .main-header p {
+        font-size: 0.8rem;
+    }
+
+    .input-group input {
+        max-width: 150px;
+    }
+}
+
+ 
+  .img-youtube {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.youtube-image {
+    width: 100%;
+    max-width: 1322px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.trust {
+    width: 100%;
+    max-width: 1318px;
+    height: auto;
+    font-family: 'Mona Sans', sans-serif; 
+    font-weight: 700;           
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-align: center;         
+    margin-top: 3rem;            
+}
+
+
+@media (max-width: 768px) {
+    .trust {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .trust {
+        font-size: 1.5rem;
+    }
+}
+
+  
+
+.video-text {
+    width: 328px;                
+    height: 112px;               
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;            
+    font-size: 20px;             
+    line-height: 28px;           
+  }
+  
+ 
+  .video-text strong {
+    font-weight: 600;            
+    line-height: 28px;           
+  }
+  
+.right{
+    width: 740px;                        
+    height: 589.69px;                   
+    max-width: 740px;                   
+    border-top-left-radius: 12px;       
+    border-bottom-left-radius: 12px;    
+    margin-right: 3rem;
+    overflow: hidden; 
+}
+
+
+.shareholders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1318px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.shareholder-image {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .shareholders {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shareholders {
+        padding: 0 5px;
+    }
+}
+
+  
+ 
+  @media (max-width: 768px) {
+    .main-header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .main-header p {
+      font-size: 1rem;
+    }
+  
+    .input-group input,
+    .input-group button {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
